@@ -10,12 +10,12 @@ using namespace cv;
 Mat img;
 
 // Holds the mask values for each detectable color. {hmin, smin, vmin, hmax, smax, vmax}
-vector<vector<int>> colors{ {0, 104, 255, 74, 255, 255},    // red
-                            {93, 85, 165, 135, 255, 255},   // blue
-                            {55, 194, 94, 89, 255, 255} };  // green
+vector<vector<int>> colors{ //{0, 104, 255, 74, 255, 255},    // red
+                            {61, 7, 101, 149, 118, 255},   // blue
+                            {39, 0, 0, 91, 215, 255} };  // green
 
 // Holds the bgr color values for each detectable color. {b, g, r}
-vector<Scalar> colorValues{ {0, 0, 255},    // red
+vector<Scalar> colorValues{ //{0, 0, 255},    // red
                             {255, 0, 0},    // blue
                             {0, 255, 0} };  // green
 
